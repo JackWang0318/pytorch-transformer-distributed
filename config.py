@@ -27,7 +27,7 @@ def get_default_config() -> ModelConfig:
         seq_len=350,
         d_model=512,
         lang_src="en",
-        lang_tgt="it",
+        lang_tgt="fr",
         model_folder="weights",
         model_basename="tmodel_{0:02d}.pt",
         preload="latest",
